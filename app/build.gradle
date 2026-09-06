@@ -65,4 +65,13 @@ dependencies {
     implementation libs.material
 
     testImplementation libs.junit
+
+    // Instrumented tests
+    androidTestImplementation libs.androidx.test.ext.junit
+    androidTestImplementation libs.androidx.test.runner
+    androidTestImplementation libs.androidx.test.rules
+    androidTestImplementation libs.espresso.core
+    androidTestImplementation libs.espresso.contrib
+    androidTestImplementation libs.fragment.testing
+    androidTestImplementation libs.navigation.testing
 }
